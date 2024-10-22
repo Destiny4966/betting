@@ -26,39 +26,10 @@ A recreation of the popular online casino game "crash" with accurate casino odds
 * Chat - Users who are logged in can send messages to other users through chat 
 * Live Line Graph - Visualization of the current multiplier with respect to time. 
 
-## Installation 
+## Installation and run the project
     // Clone the repository
     $ git clone https://github.com/AvantHR/betting.git
-    // Navigate to directory
-    $ cd ./Online-Crash-Gambling-Simulator
 
-### Setup and Run Client
-
-    // Navigate to client directory 
-    $ cd ./client
-    
-    // install packages
-    $ npm i 
-    
-    // start client (localhost:3000)
-    $ npm start
-    
-    // For running in production
-    $ npm run build
-    $ npm start
-
-### Setup and Run Server
-
-    // Navigate to server directory 
-    $ cd ./backend
-    
-    // install packages
-    $ npm i 
-    
-    // install nodemon for development
-    $ npm i -D nodemon
-    
-    // start node server (localhost:4000) and socket.io server (localhost:3001) 
     $ npm start 
 
 ### Environment Variables 
