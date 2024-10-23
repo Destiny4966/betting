@@ -1,15 +1,4 @@
-const mongoose = require("mongoose");
-mongoose.set('useFindAndModify', false);
-const express = require("express");
-const cors = require("cors");
-const passport = require("passport");
-const passportLocal = require("passport-local").Strategy;
-const cookieParser = require("cookie-parser");
-const bcrypt = require("bcryptjs");
-const session = require("express-session");
-const bodyParser = require("body-parser");
-const app = express();
-const User = require("./models/user");
+
 const Game_loop = require("./models/game_loop")
 require('dotenv').config()
 
